@@ -49,4 +49,9 @@ class EncerradorTest extends TestCase
         $this->assertEquals('Variant 1972 0Km', $leiloes[1]->recuperarDescricao());
     }
 
+    public function testProcessoDeEncerramentoDeveContinuarMesmoOcorrendoErro()
+    {
+        
+    }
+
 }
